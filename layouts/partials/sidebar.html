@@ -1,0 +1,65 @@
+{{/* layouts/partials/sidebar.html
+     Override hugo-coder's default sidebar to inject the ad unit.
+     Place this file at layouts/partials/sidebar.html in your Hugo site root.
+     Hugo's lookup order means this file takes precedence over the theme's version.
+
+     USAGE: Choose ONE ad service. Uncomment the partial call for your chosen
+     service and delete the other. Both are included here for reference.
+*/}}
+
+<aside class="sidebar">
+
+  {{/* ── Stack Status ─────────────────────────────── */}}
+  {{/* Remove or customise this section to your liking */}}
+  <div class="sc">
+  <div class="sidebar-about-header">
+    <div class="st">// About</div>
+    {{ if .Site.Params.avatarURL }}
+    <img src="{{ .Site.Params.avatarURL | relURL }}" alt="{{ .Site.Params.author }}">
+    {{ end }}
+  </div>
+  <p style="font-size:12px;color:#7a7a9a;line-height:1.6;font-weight:300;margin:0">
+    Building a self-hosted personal intelligence system inspired by Snow Crash.
+    Documenting the process.
+  </p>
+</div>
+
+  {{/* ── Ad Unit ───────────────────────────────────── */}}
+  {{/* Uncomment ONE of the following lines: */}}
+
+  {{/* Carbon Ads: */}}
+  {{/* {{ partial "carbon-ad.html" . }} */}}
+
+  {{/* EthicalAds: */}}
+  {{/* {{ partial "ethicalads-ad.html" . }} */}}
+
+  {{/* ── Tags ─────────────────────────────────────── */}}
+  {{ $tags := .Site.Taxonomies.tags.ByCount }}
+  {{ if $tags }}
+  <div class="sidebar-card">
+    <div class="sidebar-title">// Tags</div>
+    {{ range first 8 $tags }}
+    <div class="sidebar-item">
+      <a href="{{ "/tags/" | relLangURL }}{{ .Page.Title | urlize }}">
+        {{ .Page.Title }}
+      </a>
+      <span>{{ .Count }}</span>
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  {{/* ── Recent Posts ────────────────────────────── */}}
+  {{ $recent := first 4 (where .Site.RegularPages "Type" "posts") }}
+  {{ if $recent }}
+  <div class="sidebar-card">
+    <div class="sidebar-title">// Recent</div>
+    {{ range $recent }}
+    <div class="sidebar-item">
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+
+</aside>

@@ -1,0 +1,47 @@
+baseURL = "https://gegare.com/"
+languageCode = "en-us"
+title = "gegare.com"
+theme = "hugo-coder"
+
+[params]
+  author = "Dylan Gegare"
+  description = "Security enthusiast, homelabber, AI experimentation"
+  keywords = "homelab, security, AI, self-hosted, cyberpunk"
+  colorScheme = "dark"
+  maxWidth = 860
+  dateFormat = "2006-01-02"
+  since = 2026
+  readingTime = true
+  avatarURL = "/images/avatar.webp"
+  avatarAlt = "GridKid"
+  hideColorSchemeToggle = true
+
+[[params.social]]
+  name = "GitHub"
+  icon = "fa fa-github fa-2x"
+  url  = "https://github.com/dmgegare"
+
+[[params.social]]
+  name = "YouTube"
+  icon = "fa fa-youtube fa-2x"
+  url  = "https://www.youtube.com/@Grid_Kid"
+
+[[params.social]]
+  name = "RSS"
+  icon = "fa fa-rss fa-2x"
+  url  = "/index.xml"
+
+[[menus.main]]
+  name   = "Posts"
+  url    = "/posts/"
+  weight = 1
+
+[[menus.main]]
+  name   = "About"
+  url    = "/about/"
+  weight = 2
+
+[[menus.main]]
+  name   = "Tags"
+  url    = "/tags/"
+  weight = 3
