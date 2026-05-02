@@ -1,26 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>gegare.com</title>
-    <link>https://gegare.com/</link>
-    <description>Recent content on gegare.com</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 01 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://gegare.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About</title>
-      <link>https://gegare.com/about/</link>
-      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://gegare.com/about/</guid>
-      <description>&lt;h2 id=&#34;-who-i-am&#34;&gt;&#xA;  // Who I Am&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-who-i-am&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;m an IT technician and homelab enthusiast based in the US, currently&#xA;building toward a career in cybersecurity.&lt;/p&gt;&#xA;&lt;p&gt;This site documents that journey — the builds, the failures, the rabbit holes,&#xA;and the occasional breakthrough.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-the-project&#34;&gt;&#xA;  // The Project&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-the-project&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;The Librarian&lt;/strong&gt; is a self-hosted AI intelligence system inspired by the Librarian&#xA;daemon from Neal Stephenson&amp;rsquo;s &lt;em&gt;Snow Crash&lt;/em&gt; — an encyclopedic AI that knows&#xA;everything its user has ever encountered, synthesises connections across domains,&#xA;and operates as a single point of contact for an entire digital life.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Hello World</title>
-      <link>https://gegare.com/posts/hello-world/</link>
-      <pubDate>Mon, 27 Apr 2026 16:33:39 -0500</pubDate>
-      <guid>https://gegare.com/posts/hello-world/</guid>
-      <description>&lt;p&gt;Hello, my name is Dylan, and I&amp;rsquo;m looking to create something that I think is pretty cool.&lt;/p&gt;&#xA;&lt;p&gt;Have you ever read the Neal Stephenson book &amp;ldquo;Snow Crash&amp;rdquo;? It&amp;rsquo;s a satirical cyberpunk novel with an over the top world of mafia pizza delivery services and a virtual &amp;ldquo;Metaverse&amp;rdquo; (not to be confused with the company Meta&amp;rsquo;s failed VR platform) where most people spend their time living out their virtual fantasies. Very entertaining, I recommend it. Well, within this book there is an AI agent named The Librarian. This AI is the interface in which people access the nation&amp;rsquo;s privatized intelligence agencies. Essentially, its a talking encyclopedia that has full situational awareness of its user, knows the answers to any questions the user may have, and is capable of filling the gaps in knowledge the user seeks answers to. This got me thinking, our current LLM infrastructure can realistically do this same thing. Of course cloud models are getting more and more advanced at an especially fast pace, but I&amp;rsquo;m more interested in what someone could accomplish with local models, where the data the model interacts with is solely isolated on the users&amp;rsquo; machines. I want to create my own, self-hosted, self-contained version of Stephenson&amp;rsquo;s Snow Crash Librarian.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>gegare.com</title><link>https://gegare.com/</link><description>Recent content on gegare.com</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 02 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://gegare.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Ooga Booga</title><link>https://gegare.com/posts/ooga-booga/</link><pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate><guid>https://gegare.com/posts/ooga-booga/</guid><description>&lt;h2 id="overview"&gt;
+ Overview
+ &lt;a class="heading-link" href="#overview"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Testing, testing, 1 2 3.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://gegare.com/images/gridkid.jpg" alt="gridkid.jpg"&gt;&lt;/p&gt;</description></item><item><title>About</title><link>https://gegare.com/about/</link><pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate><guid>https://gegare.com/about/</guid><description>&lt;h2 id="-who-i-am"&gt;
+ // Who I Am
+ &lt;a class="heading-link" href="#-who-i-am"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;m an IT technician and homelab enthusiast based in the US, currently
+building toward a career in cybersecurity.&lt;/p&gt;
+&lt;p&gt;This site documents that journey — the builds, the failures, the rabbit holes,
+and the occasional breakthrough.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="-the-project"&gt;
+ // The Project
+ &lt;a class="heading-link" href="#-the-project"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;The Librarian&lt;/strong&gt; is a self-hosted AI intelligence system inspired by the Librarian
+daemon from Neal Stephenson&amp;rsquo;s &lt;em&gt;Snow Crash&lt;/em&gt; — an encyclopedic AI that knows
+everything its user has ever encountered, synthesises connections across domains,
+and operates as a single point of contact for an entire digital life.&lt;/p&gt;</description></item><item><title>Hello World</title><link>https://gegare.com/posts/hello-world/</link><pubDate>Mon, 27 Apr 2026 16:33:39 -0500</pubDate><guid>https://gegare.com/posts/hello-world/</guid><description>&lt;p&gt;Hello, my name is Dylan, and I&amp;rsquo;m looking to create something that I think is pretty cool.&lt;/p&gt;
+&lt;p&gt;Have you ever read the Neal Stephenson book &amp;ldquo;Snow Crash&amp;rdquo;? It&amp;rsquo;s a satirical cyberpunk novel with an over the top world of mafia pizza delivery services and a virtual &amp;ldquo;Metaverse&amp;rdquo; (not to be confused with the company Meta&amp;rsquo;s failed VR platform) where most people spend their time living out their virtual fantasies. Very entertaining, I recommend it. Well, within this book there is an AI agent named The Librarian. This AI is the interface in which people access the nation&amp;rsquo;s privatized intelligence agencies. Essentially, its a talking encyclopedia that has full situational awareness of its user, knows the answers to any questions the user may have, and is capable of filling the gaps in knowledge the user seeks answers to. This got me thinking, our current LLM infrastructure can realistically do this same thing. Of course cloud models are getting more and more advanced at an especially fast pace, but I&amp;rsquo;m more interested in what someone could accomplish with local models, where the data the model interacts with is solely isolated on the users&amp;rsquo; machines. I want to create my own, self-hosted, self-contained version of Stephenson&amp;rsquo;s Snow Crash Librarian.&lt;/p&gt;</description></item></channel></rss>
